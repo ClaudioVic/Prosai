@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title></title>
+          <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+     <link rel="stylesheet" href="estilo.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid text-center" >
+            <section id="corpo">
+             <div class="row">
+                   <img class="logo" src="_imagens/familiaLogo.png" alt="">
+                  <!-- <div class="col-xs-2 col-md-1"><img src="_imagens/botaoEmergencia.png" alt="">Emergência</div>-->
+               </div>
+                <hr>
+                <!-- Menu -->
+                <div class="btn-group" role="group" aria-label="...">
+                   <button type="button" class="btn btn-default"><a href="">Início</a></button>
+                  <button type="button" class="btn btn-danger"><a style="color:white;"href="index.html">Diagnosticar</a></button>
+                  <button type="button" class="btn btn-default"><a href="avaliacao.html">Avaliação institucional</a></button>
+                  <button type="button" class="btn btn-default"><a href="">Sobre</a></button>
+                </div>
+                 <hr>
+                  <div class="form-group">
+                        <label for="inputHospital" class="col-sm-2 control-label">Digite o nome do hospital</label>
+                        <div class="col-sm-4">
+                          <input class="form-control" id="inputHospital" placeholder="nome do hospital...">
+                        </div>
+                    </div>
+                    <br><br><br>
+                        <label for="">Tempo de espera:</label><br>
+                        <select name="" id="">
+                            <option value="">Até 10 minutos</option>
+                            <option value="">Entre 10 a 20 minutos</option>
+                            <option value="">Entre 20 e 40 minutos</option>
+                            <option value="">1 hora ou mais</option>
+                            
+                        </select><br><br>
+                        <center>
+                        <label for="">Qualidade do atendimento</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                        </select><br><br>
+                        <label for="">Avaliação geral</label>
+                         <span class="nota" style="background-position:-65px 0">
+                        <i>
+                        <a href="javascript:alert('1 estrela');void(0);"><img src="_imagens/moldura_estrela.png"></a>
+                        <a href="javascript:alert('2 estrelas');void(0);"><img src="_imagens/moldura_estrela.png"></a>
+                        <a href="javascript:alert('3 estrelas');void(0);"><img src="_imagens/moldura_estrela.png"></a>
+                        <a href="javascript:alert('4 estrelas');void(0);"><img src="_imagens/moldura_estrela.png"></a>
+                        <a href="javascript:alert('5 estrelas');void(0);"><img src="_imagens/moldura_estrela.png"></a>
+                        </i>
+                        </span></center>
+                        <br><br>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+            </section>
+        </div>
+    </body>
+</html>
