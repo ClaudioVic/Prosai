@@ -1,0 +1,2 @@
+1. Extrair o arquivo 'PROSAI';
+2. Use o Google Chrome para executar o arquivo: 'index.html'
